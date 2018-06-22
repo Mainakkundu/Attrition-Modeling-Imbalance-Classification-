@@ -43,10 +43,10 @@ from sklearn.tree import DecisionTreeClassifier, export_graphviz
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
 
-os.chdir('C:\Users\mkundu\Desktop\Employee_Engagement\SALES ATTRITION_NEW\USABLE_DATA_ATTRITION\NON_SALES\Attition Model_data\NEW DATA BY KUMUD')
+os.chdir(path)
 
-train_file_path = 'C:\Users\mkundu\Desktop\Employee_Engagement\SALES ATTRITION_NEW\USABLE_DATA_ATTRITION\NON_SALES\Attition Model_data\NEW DATA BY KUMUD\Train.xlsx' ## excel file to be provided 
-test_file_path = 'C:\Users\mkundu\Desktop\Employee_Engagement\SALES ATTRITION_NEW\USABLE_DATA_ATTRITION\NON_SALES\Attition Model_data\NEW DATA BY KUMUD\Test.xlsx'
+train_file_path = 'Train.xlsx' ## excel file to be provided 
+test_file_path = 'Test.xlsx'
 
 train = pd.read_excel(train_file_path)
 test = pd.read_excel(test_file_path)
