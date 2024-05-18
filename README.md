@@ -1,7 +1,7 @@
 # Attrition-Modeling-Imbalance-Classification
 This project is to classify the probable churn in near future.
 
-Imbalance Data 
+Imbalance Data. 
 
 EDA 
 
